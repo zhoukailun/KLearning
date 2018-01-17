@@ -30,10 +30,10 @@ from django.conf.global_settings import *  # noqa
 # 应用基本信息配置 (请按照说明修改)
 # ==============================================================================
 # 在蓝鲸智云开发者中心 -> 点击应用ID -> 基本信息 中获取 APP_ID 和 APP_TOKEN 的值
-APP_ID = ''
-APP_TOKEN = ''
+APP_ID = 'pbtest'
+APP_TOKEN = '5c03bcb7-5365-4ad5-8c53-4c02fa4abbc7'
 # 蓝鲸智云开发者中心的域名，形如：http://paas.bking.com
-BK_PAAS_HOST = ''
+BK_PAAS_HOST = 'http://paas.blueking.com:80'
 
 # 是否启用celery任务
 IS_USE_CELERY = True
